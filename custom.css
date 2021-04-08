@@ -66,3 +66,10 @@
     border: 1px solid #343a40;
     border-top: 0px;
 }
+.form-login{
+    align-items: center;
+  width: 400px;
+  padding: 20px;
+   background: lightgray;
+    margin-top: 40px;
+}
