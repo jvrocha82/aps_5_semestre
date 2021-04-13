@@ -73,3 +73,101 @@
    background: lightgray;
     margin-top: 40px;
 }
+.chatLeftSide{
+    background-color: #343a40;
+    height: 782px;
+    border-right: 1px solid lightgray;
+}
+.chatRightSide{
+    background-color: #43464a;
+    height: 780px;
+}
+.headerContactsList{
+    color: white;
+    font-size: 20px;
+    background-color: gray;
+    height: 10%;
+}
+.contactItem{
+    color: white;
+    height: 50px;
+   
+    border-bottom: 1px solid white;
+}
+.contactItem:hover{
+    color: white;
+    font-size: 20px;
+    background:  #43464a;
+    
+    
+   
+    border-bottom: 1px solid white;
+}
+.contactItem:visi{
+    color: white;
+    font-size: 20px;
+    background:  #43464a;   
+    border-bottom: 1px solid white;
+}
+.chatBody{
+    margin-top:40px;
+    height:80%;
+    background: gree;
+}
+.chatStructure{
+    background: #43464a;
+    margin-top:40px;
+    height:75%;
+}
+.chatHeader{
+    font-size: 20px;
+    color: white;
+    background-color: gray;
+    height: 10%;
+    border-bottom:1px solid lightgray;
+}
+.Chat{
+   
+    height: 100%;
+}
+.messageArea{
+    height: 10%;
+    background-color: gray;
+}
+.inputChat{
+    margin-right: 10px;
+    height:40px ;
+    border-radius: 40px;
+}
+.buttomChat{
+  
+    height: 40px;
+    border-radius: 20px;
+}
+.message{
+color: white;
+
+}
+.message:hover{
+    background: gray;
+}
+.message.send p{
+    margin: 0;
+    border-radius: 0 10% 10% 0;
+    display: table;
+    width:0px ;
+    white-space: nowrap;
+    background: #007bff;
+  
+}
+ .message.response p{
+     
+     margin: 0;
+    float: right;
+    background: #007bff;
+    border-radius: 10% 0% 0% 10%;
+    display: table;
+    width:0px ;
+    white-space: nowrap;
+    
+}

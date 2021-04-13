@@ -25,7 +25,7 @@
 
 
         <form class="form-inline my-2 my-lg-0">
-            <button class="btn btn-outline-primary btn-registro" type="submit">Registrar</button>
+          <button onclick="loggin()" class="btn btn-outline-success btn-login" type="submit">Login</button>
 
 
 
@@ -36,25 +36,29 @@
     <div class="d-flex flex-column align-items-center ">
         <div class="form-login">
         <form class="form-Body">
-          <div class="form-group">
-            <label for="exampleInputEmail1"><h2>Login</h2></label>
+            <div class="form-group">
+                <label for="exampleInputEmail1"><h2>Cadastro</h2></label>
 
-          </div>
+              </div>
             <div class="form-group">
               <label for="exampleInputEmail1">Endereço de e-mail</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
-           
+              <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seu e-mail, com ninguém.</small>
             </div>
-        
+            <div class="form-group">
+                <label for="exampleInputPassword1">Nome</label>
+                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nome">
+              </div>
             <div class="form-group">
               <label for="exampleInputPassword1">Senha</label>
               <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
             </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Continuar conectado</label>
-            </div>
-            <button type="submit" class="btn btn-primary">Logar</button>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Confirme sua senha</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+              </div>
+     
+            <button type="submit" class="btn btn-primary">Cadastrar</button>
           </form>
     </div>
 </div>
